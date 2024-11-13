@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="style.css" rel="stylesheet">
+    <title>Yummy</title>
+    <style>
+
+.card:hover {
+    transform: scale(1.05);
+  }
+  .btn-primary {
+    background-color: blue;;
+    border-color: #ff6347;
+  }
+  .btn-primary:hover {
+    background-color: rgb(16, 166, 216);
+    border-color: blue;
+  }
+        
+    </style>
+</head>
+<body>
+
+  <div class="bg-image d-flex flex-column">
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">
+          <i class="fas fa-utensils logo-icon fs-2"></i>
+          <b class="fs-2">Yummy</b>
+        </a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Cart</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Profile</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="signup.html">Login</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container d-flex flex-column justify-content-center h-100 text-start text-white ps-5">
+      <h1 class="display-6 fw-bold">“Experience food that excites, comforts,<br> and keeps you coming back for more – <br>welcome to Yummy!”</h1>
+      <p class="lead">Life is Short, Make it Yummy!</p>
+      <a href="#nextpage" class="mt-4">
+        <button class="btn btn-order-now">Order Now &rarr;</button>
+      </a>
+    </div>
+  </div>
+
+  <section class="text-center p-5 text-white shadow-sm" style="background-color: rgb(231, 47, 47);" id="nextpage">
+    <h1 class="display-4 fw-bold">Order Fresh Food</h1>
+    <p class="lead">"Delicious meals delivered to your doorstep"</p>
+  </section>
+
+  <div class="container my-5">
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+      <!-- Card template -->
+      <div class="col">
+        <div class="card  shadow-lg rounded-6 border-0 overflow-hidden" style="transition: transform 0.3s; width:350px; background-color: yellow;">
+          <img src="image/Burger.jpg" class="card-img-top" alt="Veggie Burger Combo" style="height: 300px;  object-fit: cover;">
+          <div class="card-body text-center data-bs-toggle">
+            <span class="rating text-warning fs-10">4.5⭐</span>
+            <h5 class="card-title mt-2 fw-bold text-start">Veg momos Combo</h5>
+            <p class="card-text text-muted small mt-4">A deliciously hearty veggie burger packed with fresh flavors and the perfect crunch in every bite!</p>
+            <p class="card-price fs-4 fw-semibold">&#8377;250.00</p>
+            <button class="btn btn-primary px-4 py-2 rounded-pill shadow-sm mt-3">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+      <!-- Repeat card template for other dishes -->
+
+      <!-- Card template -->
+      <div class="col">
+        <div class="card  shadow-lg rounded-6 border-0 overflow-hidden" style="transition: transform 0.3s; width:350px; background-color: yellow;">
+          <img src="image/momo.jpg" class="card-img-top" alt="Veggie Burger Combo" style="height: 300px;  object-fit: cover;">
+          <div class="card-body text-center data-bs-toggle">
+            <span class="rating text-warning fs-10">5.0⭐</span>
+            <h5 class="card-title mt-2 fw-bold text-start">Panner momo Combo</h5>
+            <p class="card-text text-muted small mt-4">A deliciously hearty veggie burger packed with fresh flavors and the perfect crunch in every bite!</p>
+            <p class="card-price fs-4 fw-semibold">&#8377;250.00</p>
+            <button class="btn btn-primary px-4 py-2 rounded-pill shadow-sm mt-3">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+      <!-- Repeat card template for other dishes -->
+
+      <!-- Card template -->
+      <div class="col">
+        <div class="card  shadow-lg rounded-6 border-0 overflow-hidden" style="transition: transform 0.3s; width:350px; background-color: yellow;">
+          <img src="image/Ice_cream.jpg" class="card-img-top" alt="Veggie Burger Combo" style="height: 300px;  object-fit: cover;">
+          <div class="card-body text-center data-bs-toggle">
+            <span class="rating text-warning fs-10">4.7⭐</span>
+            <h5 class="card-title mt-2 fw-bold text-start">Ice-Cream</h5>
+            <p class="card-text text-muted small mt-4">A deliciously hearty veggie burger packed with fresh flavors and the perfect crunch in every bite!</p>
+            <p class="card-price fs-4 fw-semibold">&#8377;250.00</p>
+            <button class="btn btn-primary px-4 py-2 rounded-pill shadow-sm mt-3">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+      <!-- Repeat card template for other dishes -->
+
+      <!-- Card template -->
+      <div class="col">
+        <div class="card  shadow-lg rounded-6 border-0 overflow-hidden" style="transition: transform 0.3s; width:350px; background-color: yellow;">
+          <img src="image/bgr.jpg" class="card-img-top" alt="Veggie Burger Combo" style="height: 300px;  object-fit: cover;">
+          <div class="card-body text-center data-bs-toggle">
+            <span class="rating text-warning fs-10">4.5⭐</span>
+            <h5 class="card-title mt-2 fw-bold text-start">Veggie Burger Combo</h5>
+            <p class="card-text text-muted small mt-4">A deliciously hearty veggie burger packed with fresh flavors and the perfect crunch in every bite!</p>
+            <p class="card-price fs-4 fw-semibold">&#8377;250.00</p>
+            <button class="btn btn-primary px-4 py-2 rounded-pill shadow-sm mt-3">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+      <!-- Repeat card template for other dishes -->
+
+      <!-- Card template -->
+      <div class="col">
+        <div class="card  shadow-lg rounded-6 border-0 overflow-hidden" style="transition: transform 0.3s; width:350px; background-color: yellow;">
+          <img src="image/pizza.jpg" class="card-img-top" alt="Veggie Burger Combo" style="height: 300px;  object-fit: cover;">
+          <div class="card-body text-center data-bs-toggle">
+            <span class="rating text-warning fs-10">4.0⭐</span>
+            <h5 class="card-title mt-2 fw-bold text-start">Double Cheese Pizza</h5>
+            <p class="card-text text-muted small mt-4">A deliciously hearty veggie burger packed with fresh flavors and the perfect crunch in every bite!</p>
+            <p class="card-price fs-4 fw-semibold">&#8377;550.00</p>
+            <button class="btn btn-primary px-4 py-2 rounded-pill shadow-sm mt-3">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+      <!-- Repeat card template for other dishes -->
+
+      <!-- Card template -->
+      <div class="col">
+        <div class="card  shadow-lg rounded-6 border-0 overflow-hidden" style="transition: transform 0.3s; width:350px; background-color: yellow;">
+          <img src="image/bgr.jpg" class="card-img-top" alt="Veggie Burger Combo" style="height: 300px;  object-fit: cover;">
+          <div class="card-body text-center data-bs-toggle">
+            <span class="rating text-warning fs-10">4.9⭐</span>
+            <h5 class="card-title mt-2 fw-bold text-start">Veggie Burger Combo</h5>
+            <p class="card-text text-muted small mt-4">A deliciously hearty veggie burger packed with fresh flavors and the perfect crunch in every bite!</p>
+            <p class="card-price fs-4 fw-semibold">&#8377;250.00</p>
+            <button class="btn btn-primary px-4 py-2 rounded-pill shadow-sm mt-3">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+      <!-- Repeat card template for other dishes -->
+    </div>
+  </div>
+
+  <footer class="text-center p-4">
+    <p>Built by <b>Himanshu Shivhare</b></p>
+    
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
